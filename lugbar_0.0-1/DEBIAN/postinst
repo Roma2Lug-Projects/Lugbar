@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p /etc/lugbar
+wget https://raw.githubusercontent.com/Roma2Lug-Projects/NFC-Emulator/main/src/config/products.txt -O /etc/lugbar/item.txt
+
+chmod u+x /usr/local/bin/lugbar
+chmod 775 /etc/lugbar/item.txt

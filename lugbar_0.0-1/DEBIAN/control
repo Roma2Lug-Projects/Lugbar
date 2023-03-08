@@ -1,0 +1,8 @@
+Package: lugbar
+Version: 0.0-1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: msmtp, wget
+Maintainer: Valerio
+Description: lugbar
