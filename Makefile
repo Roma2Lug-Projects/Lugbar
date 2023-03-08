@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = -Wall -Wextra
 
 DEPS = src/utils/list.h src/email.h src/load_fileitem.h src/validation.h
 OBJ = src/utils/list.o src/email.o src/load_fileitem.o src/validation.o src/main.o
