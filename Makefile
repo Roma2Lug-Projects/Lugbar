@@ -17,7 +17,7 @@ clean:
 
 install:
 	mkdir -p /etc/lugbar
-	wget https://raw.githubusercontent.com/Roma2Lug-Projects/NFC-Emulator/main/src/config/products.txt -O /etc/lugbar/item.txt
+	curl https://raw.githubusercontent.com/Roma2Lug-Projects/NFC-Emulator/main/src/config/products.txt -o /etc/lugbar/item.txt
 	cp lugbar /usr/local/bin/
 	chmod u+x /usr/local/bin/lugbar
 

@@ -20,7 +20,6 @@ Dal file .deb per Ubuntu/Debian nella sezione Release oppure installazione manua
     sudo make install
 ```
 ## Dipendenze 
-- wget
 - msmtp
 
 # File di configurazione
