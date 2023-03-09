@@ -4,6 +4,13 @@ Porting in C del programma di @Iaio99 NFC-Emulator. Invia una email alla casella
 ### Perché hai fatto questo porting in C da Python ?
 ![IT STINKS!](https://imgur.com/GAplSMG.gif)
 
+# Stato attuale e sviluppi futuri
+
+Ora è soltanto un inutile e complesso sistema di specchi e leve per inviare una email con bash con variabile il Subject, in caso di acquisto caffè:
+```
+printf 'Subject: acquisto caffè' | msmtp -a lugbar acquisti.roma2lug@gmail.com
+```
+In futuro questo programma sarà un modo per interfacciarsi via CLI con la web app del bar. Quindi l'email sarà sostituita da una richiesta HTTP e ci sarà modo di poter visualizzare il proprio credito/debito e lo storico dei proprio acquisti (API permettendo).
 # Installazione
 
 Dal file .deb per Ubuntu/Debian nella sezione Release oppure installazione manuale:
