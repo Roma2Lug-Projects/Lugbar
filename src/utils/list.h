@@ -1,3 +1,5 @@
+#pragma once
+
 struct node {
     int pos;
     char item_name[32];
@@ -14,4 +16,3 @@ struct head_node {
 void insert_node(struct head_node **head, char *item);
 struct head_node *create_list();
 char *lookup_list(struct node **first_node, int p);
-
