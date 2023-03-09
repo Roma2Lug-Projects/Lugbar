@@ -2,10 +2,12 @@
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include "load_fileitem.h"
+
 #include "email.h"
-#include "validation.h"
+#include "load_fileitem.h"
 #include "utils/list.h"
+#include "validation.h"
+
 
 int main(int argc, char **argv)
 {
