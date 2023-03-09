@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p /etc/lugbar
+curl https://raw.githubusercontent.com/Roma2Lug-Projects/Lugbar/main/item.txt -o /etc/lugbar/item.txt
+
+chmod u+x /usr/local/bin/lugbar
+chmod 775 /etc/lugbar/item.txt
