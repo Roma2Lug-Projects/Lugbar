@@ -1,3 +1,5 @@
+#pragma once
+
 int check_fileitem();
 int check_msmtp();
 int check_config();
