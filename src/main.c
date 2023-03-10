@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
            printf("Assente l'importo del versamento\n");
        }
        else {
-            char subject[16];
+            char subject[32];
             sprintf(subject, "versamento %s", argv[2]);
 
             if(!sendemail(subject)) {
@@ -53,7 +53,7 @@ int main(int argc, char **argv) {
     
     else if (atoi(argv[1]) <= max_item && atoi(argv[1]) > 0) {
         char *choice_item = lookup_list(&current, atoi(argv[1])-1);
-        char subject[16];
+        char subject[128];
         sprintf(subject, "acquisto %s", choice_item);
         if(!sendemail(subject)) {
             printf("Acquistato %s\n", choice_item);
