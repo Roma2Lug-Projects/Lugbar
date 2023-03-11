@@ -31,7 +31,6 @@ syslog LOG_MAIL
 auth on
 tls on
 aliases /etc/aliases
-Example with GMAIL
 account lugbar
 host smtp.gmail.com
 port 465
